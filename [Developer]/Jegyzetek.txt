@@ -1,0 +1,8 @@
+
+Localhost hardlink-létrehozó parancs:
+    cd c:/xampp/htdocs
+    mklink /d cv "C:\Users\mikobalint\Documents\GitHub\Interactive_CV"
+
+
+
+
