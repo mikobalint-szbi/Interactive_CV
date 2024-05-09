@@ -2,7 +2,7 @@
 
 /**
  * @package     com.kevinsguides
- * @subpackage  templates.joomstarter
+ * @subpackage  templates.CV
  *
  * @copyright   modified version of Joomla's default module chromes
  * @license     GNU General Public License version 2 or later; see LICENSE.txt

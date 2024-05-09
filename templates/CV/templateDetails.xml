@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="template" client="site" method="upgrade">
-	<name>joomstarter</name>
+	<name>CV</name>
 	<version>1.41</version>
 	<creationDate>Oct 2023</creationDate>
 	<author>Your Name</author>
 	<authorEmail>Your Email</authorEmail>
 	<copyright>(C) 2023 KG</copyright>
-	<description>TPL_joomstarter_XML_DESCRIPTION</description>
+	<description>TPL_CV_XML_DESCRIPTION</description>
 	<inheritable>1</inheritable>
 	<scriptfile>script.php</scriptfile>
 	<files>
@@ -15,27 +15,24 @@
 		<filename>templateDetails.xml</filename>
 		<folder>html</folder>
 	</files>
-	<media destination="templates/site/joomstarter" folder="media">
+	<media destination="templates/site/CV" folder="media">
 		<folder>js</folder>
 		<folder>css</folder>
 		<folder>scss</folder>
 		<folder>images</folder>
 	</media>
 	<positions>
+		<position>header</position>
 		<position>footer</position>
-		<position>name</position>
-		<position>position</position>
-		<position>picture</position>
-		<position>background</position>
-		<position>leftSide</position>
-		<position>main</position>
-		<position>title</position>
-		<position>tags</position>
-		
+		<position>sidebar</position>
+		<position>search</position>
+		<position>breadcrumbs</position>
+		<position>menu</position>
+		<position>content-top</position>
 	</positions>
 	<languages folder="language">
-		<language tag="en-GB">en-GB/tpl_joomstarter.ini</language>
-		<language tag="en-GB">en-GB/tpl_joomstarter.sys.ini</language>
+		<language tag="en-GB">en-GB/tpl_CV.ini</language>
+		<language tag="en-GB">en-GB/tpl_CV.sys.ini</language>
 	</languages>
 	<config>
 		<fields name="params">
@@ -43,7 +40,7 @@
 				<field
 					name="testparam"
 					type="radio"
-					label="TPL_joomstarter_TEST_LABEL"
+					label="TPL_CV_TEST_LABEL"
 					default="1"
 					layout="joomla.form.field.radio.switcher"
 					filter="boolean"

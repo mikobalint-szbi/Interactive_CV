@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.joomla.org/schemas/json-schema/web_assets.json",
-  "name": "joomstarter",
+  "name": "CV",
   "version": "4.0.0",
-  "description": "This file contains details of the assets used by joomstarter, a modified version of the default cassiopeia template.",
+  "description": "This file contains details of the assets used by CV, a modified version of the default cassiopeia template.",
   "license": "GPL-2.0-or-later",
   "assets": [
 
     {
-      "name": "template.joomstarter.mainstyles",
+      "name": "template.CV.mainstyles",
       "description": "The default css style to use.",
       "type": "style",
       "uri": "template.min.css",
@@ -16,13 +16,13 @@
       ]
     },
     {
-      "name": "template.joomstarter.user",
-      "description": "The custom css style to use. Must be placed in media/templates/site/joomstarter/css/user.css",
+      "name": "template.CV.user",
+      "description": "The custom css style to use. Must be placed in media/templates/site/CV/css/user.css",
       "type": "style",
       "uri": "user.css"
     },
     {
-      "name": "template.joomstarter.scripts",
+      "name": "template.CV.scripts",
       "description": "The file containing the javascript for this template.",
       "type": "script",
       "uri": "template.js",
@@ -39,7 +39,7 @@
       "type": "script",
       "uri": "",
       "dependencies": [
-        "template.joomstarter.scripts"
+        "template.CV.scripts"
       ]
     },
     {

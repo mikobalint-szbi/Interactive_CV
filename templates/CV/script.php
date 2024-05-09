@@ -3,7 +3,7 @@
 defined ( '_JEXEC' ) or die;
 
 //the class name must match the "element" property in the extensions table of the database, or the field "name" in the xml file EXACTLY or the script will not run
-class joomstarterInstallerScript
+class CVInstallerScript
 {
 
     public function install($parent) 

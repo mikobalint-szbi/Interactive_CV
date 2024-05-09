@@ -1,7 +1,7 @@
 <?php
 /**
  * @package     Joomla.Site
- * @subpackage  Templates.JoomStarter
+ * @subpackage  Templates.CV
  *
  * @copyright   (C) YEAR Your Name
  * @license     GNU General Public License version 2 or later; see LICENSE.txt
@@ -58,9 +58,9 @@ HTMLHelper::_('bootstrap.dropdown');
 
 //Register our web assets (Css/JS) with the Web Asset Manager
 //The files are defined in joomla.asset.json!!! If you don't want to use the included CSS or JS, just remove these lines or replace the CSS/JS files with your own code!
-$wa->useStyle('template.joomstarter.mainstyles');
-$wa->useStyle('template.joomstarter.user');
-$wa->useScript('template.joomstarter.scripts');
+$wa->useStyle('template.CV.mainstyles');
+$wa->useStyle('template.CV.user');
+$wa->useScript('template.CV.scripts');
 
 //Set viewport meta tag for mobile responsiveness -- very important for scaling on mobile devices
 $this->setMetaData('viewport', 'width=device-width, initial-scale=1');
