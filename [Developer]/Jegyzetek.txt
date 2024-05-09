@@ -3,6 +3,8 @@ Localhost hardlink-létrehozó parancs:
     cd c:/xampp/htdocs
     mklink /d cv "C:\Users\mikobalint\Documents\GitHub\Interactive_CV"
 
+https://www.canva.com/design/DAGEuVxVUMI/tAiWqrh9vO6NnmQm8NnM1g/edit?utm_content=DAGEuVxVUMI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
+	
 
 

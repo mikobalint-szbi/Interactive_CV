@@ -22,13 +22,16 @@
 		<folder>images</folder>
 	</media>
 	<positions>
-		<position>header</position>
 		<position>footer</position>
-		<position>sidebar</position>
-		<position>search</position>
-		<position>breadcrumbs</position>
-		<position>menu</position>
-		<position>content-top</position>
+		<position>name</position>
+		<position>position</position>
+		<position>picture</position>
+		<position>background</position>
+		<position>leftSide</position>
+		<position>main</position>
+		<position>title</position>
+		<position>tags</position>
+		
 	</positions>
 	<languages folder="language">
 		<language tag="en-GB">en-GB/tpl_joomstarter.ini</language>
