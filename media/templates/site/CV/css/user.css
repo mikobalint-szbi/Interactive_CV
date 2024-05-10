@@ -1,2 +1,16 @@
-/* you can add your own custom css here if you don't want to worry about SASS/SCSS */
+body {
+  background-color: wheat;
+}
 
+.siteBody {
+  background-color: white;
+  border: 1px solid black;
+  min-height: 100vh;
+  width: 70%;
+  margin: auto;
+  display: flex;
+}
+.siteBody .side {
+  background-color: blue;
+  width: 20px;
+}/*# sourceMappingURL=user.css.map */

@@ -88,81 +88,29 @@ $this->setMetaData('viewport', 'width=device-width, initial-scale=1');
      * */ 
     ?>
     
+    <link rel="stylesheet" href="../../media/templates/site/CV/css/template.css" type="text/css" />
 </head>
 
 <?php // you can change data-bs-theme to dark for dark mode  // ?>
 <body class="site <?php echo $pageclass; ?>" data-bs-theme="light">
-	<header>
-        <?php // Generate a Bootstrap Navbar for the top of our website and put the site title on it ?>
-        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
-            <div class="container">
-                <a href="" class="navbar-brand"><?php echo ($sitename); ?></a>
-                <?php // Update 1.14 - Added support for mobile menu with bootstrap ?>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <?php // Put menu links in the navbar - main menu must be in the "menu" position!!! Only supports top level and 1 down, so no more than 1 level of child items ?>
-                <?php if ($this->countModules('menu')): ?>
-                <div class="collapse navbar-collapse" id="mainmenu"><jdoc:include type="modules" name="menu" style="none" /></div>
 
-                <?php endif; ?>
-            </div>
-        </nav>
-        <?php // Load Header Module if Module Exists ?>
-        <?php if ($this->countModules('header')) : ?>
-            <div class="headerClasses">
-                <jdoc:include type="modules" name="header" style="none" />
-            </div>
-        <?php endif; ?>
-    </header>
+
 
     <?php // Generate the main content area of the website ?>
     <main class="siteBody">
-        <div class="container">
-        <?php // Load Breadcrumbs Module if Module Exists ?>
-            <?php if ($this->countModules('breadcrumbs')) : ?>
-                <div class="breadcrumbs">
-                    <jdoc:include type="modules" name="breadcrumbs" style="none" />
-                </div>
-            <?php endif; ?>
-            <div class="row">
-            <?php // Use a BootStrap grid to load main content on left, sidebar on right IF sidebar exists ?>
-                <?php if ($this->countModules('sidebar')) : ?>
-                <div class="col-xs-12 col-lg-8">
-
-                    <main>
-                    <?php // Load important Joomla system messages ?>
-                        <jdoc:include type="message" />
-                        <?php // Load the main component of the webpage ?>
-                        <jdoc:include type="component" />
-                    </main>
-                </div>
-                <?php // Load the sidebar if one exists ?>
-                <div class="col-xs-12 col-lg-4">
-                <?php // This line tells Joomla to load the "sidebar" module position with the "superBasicMod" mod chrome as the default (see html/layouts/chromes folder) ?>
-                        <jdoc:include type="modules" name="sidebar" style="superBasicMod" />
-                </div>
-                <?php // If there's no sidebar, just load the component with no sidebar ?>
-                <?php else: ?>
-                    <?php // Load the main component of the webpage ?>
-                    <main>
-                        <jdoc:include type="component" />
-                    </main>
-                <?php endif; ?>
-            </div>
+        <div id="side">
+        
         </div>
+        <div id="main">
+
+        </div>
+
     </main>
 
     <?php // Load Footer ?>
-    <footer class="footer mt-auto py-3 bg-light ">
-        <div class="container">
-            <?php if ($this->countModules('footer')) : ?>
-                <jdoc:include type="modules" name="footer" style="none" />
-            <?php endif; ?>
-        </div>
+    <footer>
+
     </footer>
 
-    <?php // Include any debugging info ?>
-	<jdoc:include type="modules" name="debug" style="none" />
 </body>
 </html>

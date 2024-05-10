@@ -1,0 +1,19 @@
+
+body{
+    background-color: wheat;
+}
+
+.siteBody {
+    background-color: white;
+    border: 1px solid black;
+    min-height: 100vh;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    
+    .side{
+        background-color: blue;
+        width: 20px;
+    }
+
+}
