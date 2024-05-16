@@ -48,6 +48,14 @@
         <fields name="params">
             
             <fieldset name="basic">
+			
+				<field
+                    name="szoveg"
+                    type="text"
+                    default="900"
+                    label="MOD_text"
+                    description="COM_MODULES_FIELD_CACHE_TIME_DESC"
+                />
                 
                 <field
                     name="catid"
