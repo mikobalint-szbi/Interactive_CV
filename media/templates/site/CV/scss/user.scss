@@ -1,6 +1,6 @@
 
 body{
-    background-color: wheat;
+    background-color: rgb(216, 224, 240);
 }
 
 .siteBody {
@@ -10,10 +10,16 @@ body{
     width: 70%;
     margin: auto;
     display: flex;
+    box-shadow: 0.5px 0.5px 3px black,
+                -1px -1px 5px black;
     
-    .side{
-        background-color: blue;
-        width: 20px;
+    #main{
+        width: 75%;
+    }
+
+    #side{
+        background-color: rgb(25, 71, 109);
+        width: 25%;
     }
 
 }

@@ -5,6 +5,15 @@ Localhost hardlink-létrehozó parancs:
 
 https://www.canva.com/design/DAGEuVxVUMI/tAiWqrh9vO6NnmQm8NnM1g/edit?utm_content=DAGEuVxVUMI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
-	
 
+- experience
+- projects
+- education
+- skills
+- contact
+- intro
+- image
+- reference
 
+- tags
+- 
