@@ -85,6 +85,7 @@ return [
 	'Joomla\\Module\\Finder\\Site\\' => [JPATH_SITE . '/modules/mod_finder/src'],
 	'Joomla\\Module\\Footer\\Site\\' => [JPATH_SITE . '/modules/mod_footer/src'],
 	'Joomla\\Module\\GuidedTours\\Administrator\\' => [JPATH_ADMINISTRATOR . '/modules/mod_guidedtours/src'],
+	'Joomla\\Module\\Hello\\Site\\' => [JPATH_SITE . '/modules/mod_hello'],
 	'Joomla\\Module\\Languages\\Site\\' => [JPATH_SITE . '/modules/mod_languages/src'],
 	'Joomla\\Module\\LatestActions\\Administrator\\' => [JPATH_ADMINISTRATOR . '/modules/mod_latestactions/src'],
 	'Joomla\\Module\\Latest\\Administrator\\' => [JPATH_ADMINISTRATOR . '/modules/mod_latest/src'],

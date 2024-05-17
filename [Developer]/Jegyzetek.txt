@@ -5,6 +5,8 @@ Localhost hardlink-létrehozó parancs:
 
 https://www.canva.com/design/DAGEuVxVUMI/tAiWqrh9vO6NnmQm8NnM1g/edit?utm_content=DAGEuVxVUMI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
+https://extensions.joomla.org/
+
 
 MySQL-error megoldása:
 - Az xampp/mysql-en belül kiüríted a data mappát, és a backup mappa tartalmát teszed be a helyére

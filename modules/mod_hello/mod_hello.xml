@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="4.0" client="site" method="upgrade">
+ <name>MOD_HELLO</name>
+ <creationDate>[DATE]</creationDate>
+ <author>[AUTHOR]</author>
+ <authorEmail>[AUTHOR_EMAIL]</authorEmail>
+ <authorUrl>[AUTHOR_URL]</authorUrl>
+ <copyright>[COPYRIGHT]</copyright>
+ <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+ <version>1.0</version>
+ <description>MOD_HELLO_XML_DESCRIPTION</description>
+ <namespace>Joomla\Module\Hello</namespace>
+ <files>
+ <filename module="mod_hello">mod_hello.php</filename>
+ <folder>tmpl</folder>
+ <folder>HelloHelper</folder>
+ <folder>language</folder>
+ <filename>mod_hello.xml</filename>
+ </files>
+</extension>
