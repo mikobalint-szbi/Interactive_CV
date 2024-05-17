@@ -10,6 +10,8 @@
 defined('_JEXEC') or die;
 ?>
 <div class="example-module-wrap<?php echo $moduleclass_sfx; ?>">
+
+    <div id="a"></div>
     <div class="example-module-wrap-inner">
         
         <ul class="example-module-list nav nav-tabs nav-stacked">
@@ -22,3 +24,10 @@ defined('_JEXEC') or die;
         
     </div>
 </div>
+<style>
+    #a{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+    }
+</style>

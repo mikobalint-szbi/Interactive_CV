@@ -24,7 +24,8 @@
 	<positions>
 		<position>header</position>
 		<position>footer</position>
-		<position>sidebar</position>
+		<position>main</position>
+		<position>side</position>
 		<position>search</position>
 		<position>breadcrumbs</position>
 		<position>menu</position>

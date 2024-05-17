@@ -50,57 +50,69 @@
             <fieldset name="basic">
 			
 				<field
-                    name="szoveg"
+                    name="phone"
                     type="text"
-                    default="900"
-                    label="MOD_text"
-                    description="COM_MODULES_FIELD_CACHE_TIME_DESC"
+                    default="+36"
+                    label="MOD_mobilePhone"
                 />
-                
                 <field
-                    name="catid"
-                    type="category"
-                    description="JGLOBAL_CHOOSE_CATEGORY_DESC"
-                    extension="com_contacts"
-                    label="JGLOBAL_CHOOSE_CATEGORY_LABEL"
-                    required="true"
-                    multiple="true"
-                    size="10"
-                    default="1"
-                >
-                    <option value="1">JALL</option>
-                </field>
+                name="landline"
+                type="text"
+                default="+36"
+                label="MOD_landline"
+                />
+                <field
+                name="email"
+                type="text"
+                default=""
+                label="MOD_email"
+                />
+                <field
+                name="address"
+                type="text"
+                default=""
+                label="MOD_address"
+                />
+                <field
+                name="web"
+                type="text"
+                default=""
+                label="MOD_website"
+                />
+                <field
+                name="discord"
+                type="text"
+                default=""
+                label="MOD_discord"
+                />
+                <field
+                name="twitter"
+                type="text"
+                default=""
+                label="MOD_twitter"
+                />
+                <field
+                name="linkedin"
+                type="text"
+                default=""
+                label="MOD_linkedIn"
+                />
+                <field
+                name="fax"
+                type="text"
+                default="+36"
+                label="MOD_fax"
+            />
+
+                
+
                 
                 <field
                     type="spacer"
                     hr="true"
                 />
     
-                <field
-                    name="orderby"
-                    type="list"
-                    description="JGLOBAL_ARTICLE_ORDER_DESC"
-                    label="JGLOBAL_ARTICLE_ORDER_LABEL"
-                    default="a.created"
-                >
-                    <option value="a.created">JGLOBAL_CREATED_DATE</option>
-                    <option value="a.publish_up">MOD_contacts_PUBLISH_UP</option>
-                    <option value="a.publish_down">MOD_contacts_PUBLISH_DOWN</option>
-                    <option value="a.modified">JGLOBAL_FIELD_MODIFIED_LABEL</option>
-                    <option value="a.title">JGLOBAL_TITLE</option>
-                    <option value="a.ordering">JGLOBAL_ORDERING</option>
-                </field>
-                
-                <field
-                    name="order_dir"
-                    type="list"
-                    label="JFIELD_ORDERING_LABEL"
-                    description="JFIELD_ORDERING_DESC"
-                    default="DESC"
-                >
-                    <option value="ASC">MOD_contacts_ORDER_DIR_ASC</option>
-                    <option value="DESC">MOD_contacts_ORDER_DIR_DESC</option>
-                </field>
+            
                 
             </fieldset>
             

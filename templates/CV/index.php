@@ -99,10 +99,10 @@ $this->setMetaData('viewport', 'width=device-width, initial-scale=1');
     <?php // Generate the main content area of the website ?>
     <main class="siteBody">
         <div id="side">
-        
+			<jdoc:include type="modules" name="side" style="none" />
         </div>
         <div id="main">
-
+			<jdoc:include type="modules" name="main" style="none" />
         </div>
 
     </main>
