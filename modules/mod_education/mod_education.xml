@@ -50,18 +50,18 @@
             <fieldset name="basic">
                 
                 <field
-                    name="catid"
-                    type="category"
-                    description="JGLOBAL_CHOOSE_CATEGORY_DESC"
-                    extension="com_education"
-                    label="JGLOBAL_CHOOSE_CATEGORY_LABEL"
-                    required="true"
-                    multiple="true"
-                    size="10"
-                    default="1"
-                >
-                    <option value="1">JALL</option>
-                </field>
+                name="secondary"
+                type="text"
+                default=""
+                label="MOD_SECONDARY"
+                />
+                                
+                <field
+                name="uni1"
+                type="text"
+                default=""
+                label="MOD_secondary"
+                />
                 
                 <field
                     type="spacer"
