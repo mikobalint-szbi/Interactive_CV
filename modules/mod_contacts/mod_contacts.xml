@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="module" version="2.5" client="site" method="upgrade">
-    <name>mod_contacts</name>
+    <name>MOD_CONTACTS</name>
     <author>Asika</author>
     <creationDate>2012-11-12</creationDate>
     <copyright>Copyright (C) 2012 Asikart.com</copyright>
@@ -9,6 +9,10 @@
     <authorUrl>http://asikart.com</authorUrl>
     <version>1.0</version>
     <description>MOD_contacts_INSTALL_DESC</description>
+    <languages folder="language">
+        <language tag="en-GB">en-GB.mod_contacts.ini</language>
+        <language tag="en-GB">en-GB.mod_contacts.sys.ini</language>
+    </languages>
     
     
     <scriptfile>install.php</scriptfile>
@@ -31,8 +35,8 @@
     
     <files>
         <filename module="mod_contacts">mod_contacts.php</filename>
-        <folder>tmpl</folder>
         <folder>language</folder>
+        <folder>tmpl</folder>
         <filename>index.html</filename>
         <filename>mod_contacts.xml</filename>
         <filename>helper.php</filename>
@@ -52,56 +56,56 @@
 				<field
                     name="phone"
                     type="text"
-                    default="+36"
-                    label="MOD_mobilePhone"
+                    default="+36 "
+                    label="MOD_MOBILEPHONE"
                 />
                 <field
                 name="landline"
                 type="text"
-                default="+36"
-                label="MOD_landline"
+                default="+36 "
+                label="MOD_LANDLINE"
                 />
                 <field
                 name="email"
                 type="text"
                 default=""
-                label="MOD_email"
+                label="MOD_EMAIL"
                 />
                 <field
                 name="address"
                 type="text"
                 default=""
-                label="MOD_address"
+                label="MOD_ADDRESS"
                 />
                 <field
                 name="web"
                 type="text"
                 default=""
-                label="MOD_website"
+                label="MOD_WEBSITE"
                 />
                 <field
                 name="discord"
                 type="text"
                 default=""
-                label="MOD_discord"
+                label="MOD_DISCORD"
                 />
                 <field
                 name="twitter"
                 type="text"
                 default=""
-                label="MOD_twitter"
+                label="MOD_TWITTER"
                 />
                 <field
                 name="linkedin"
                 type="text"
                 default=""
-                label="MOD_linkedIn"
+                label="MOD_LINKEDIN"
                 />
                 <field
                 name="fax"
                 type="text"
-                default="+36"
-                label="MOD_fax"
+                default="+36 "
+                label="MOD_FAX"
             />
 
                 
