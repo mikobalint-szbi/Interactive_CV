@@ -55,55 +55,49 @@
 			
 				<field
                     name="phone"
-                    type="text"
+                    type="tel"
                     default="+36 "
                     label="MOD_MOBILEPHONE"
                 />
                 <field
                 name="landline"
-                type="text"
+                type="tel"
                 default="+36 "
                 label="MOD_LANDLINE"
                 />
                 <field
                 name="email"
                 type="text"
-                default=""
                 label="MOD_EMAIL"
                 />
                 <field
                 name="address"
                 type="text"
-                default=""
                 label="MOD_ADDRESS"
                 />
                 <field
                 name="web"
                 type="text"
-                default=""
                 label="MOD_WEBSITE"
                 />
                 <field
                 name="discord"
                 type="text"
-                default=""
                 label="MOD_DISCORD"
                 />
                 <field
                 name="twitter"
                 type="text"
-                default=""
                 label="MOD_TWITTER"
                 />
                 <field
                 name="linkedin"
                 type="text"
-                default=""
                 label="MOD_LINKEDIN"
                 />
                 <field
                 name="fax"
-                type="text"
+                type="tel"
                 default="+36 "
                 label="MOD_FAX"
             />

@@ -49,20 +49,208 @@
             
             <fieldset name="basic">
                 
+                <field type="spacer" name="secondarySpacer" class="text"
+                label="PLG_SECONDARY"
+                />
                 <field
                 name="secondary"
                 type="text"
-                default=""
                 label="MOD_SECONDARY"
                 />
-                                
+                <field
+                name="secondaryStart"
+                type="number"
+                default="2024"
+                label="MOD_SECONDARYSY"
+                />
+                <field
+                name="secondaryFinish"
+                type="number"
+                default="2024"
+                label="MOD_SECONDARYFY"
+                />
+                 
+                <field type="spacer" name="uniSpacer" class="text"
+                label="PLG_UNI"
+                />
+                
+
                 <field
                 name="uni1"
                 type="text"
-                default=""
-                label="MOD_secondary"
+                label="MOD_UNI1"
+                />
+                <field
+                name="uni1Start"
+                type="number"
+                default="2024"
+                label="MOD_UNI1SY"
+                />
+                <field
+                name="uni1Finish"
+                type="number"
+                default="2024"
+                label="MOD_UNI1FY"
+                />
+
+                <field
+                type="spacer"
+                hr="true"
+                />
+
+                <field
+                name="uni2"
+                type="text"
+                label="MOD_UNI2"
+                />
+                <field
+                name="uni2Start"
+                type="number"
+                default="2024"
+                label="MOD_UNI2SY"
+                />
+                <field
+                name="uni2Finish"
+                type="number"
+                default="2024"
+                label="MOD_UNI2FY"
+                />
+
+                <field
+                type="spacer"
+                hr="true"
+                />
+
+                <field
+                name="uni3"
+                type="text"
+                label="MOD_UNI3"
+                />
+                <field
+                name="uni3Start"
+                type="number"
+                default="2024"
+                label="MOD_UNI3SY"
+                />
+                <field
+                name="uni3Finish"
+                type="number"
+                default="2024"
+                label="MOD_UNI3FY"
+                />
+
+                <field
+                type="spacer"
+                hr="true"
+                />
+
+                <field
+                name="uni4"
+                type="text"
+                label="MOD_UNI4"
+                />
+                <field
+                name="uni4Start"
+                type="number"
+                default="2024"
+                label="MOD_UNI4SY"
+                />
+                <field
+                name="uni4Finish"
+                type="number"
+                default="2024"
+                label="MOD_UNI4FY"
+                />
+
+                <field
+                type="spacer"
+                hr="true"
+                />
+
+                <field
+                name="uni5"
+                type="text"
+                label="MOD_UNI5"
+                />
+                <field
+                name="uni5Start"
+                type="number"
+                default="2024"
+                label="MOD_UNI5SY"
+                />
+                <field
+                name="uni5Finish"
+                type="number"
+                default="2024"
+                label="MOD_UNI5FY"
+                />
+
+                <field
+                type="spacer"
+                hr="true"
+                />
+
+                <field
+                name="uni6"
+                type="text"
+                label="MOD_UNI6"
+                />
+                <field
+                name="uni6Start"
+                type="number"
+                default="2024"
+                label="MOD_UNI6SY"
+                />
+                <field
+                name="uni6Finish"
+                type="number"
+                default="2024"
+                label="MOD_UNI6FY"
+                />
+
+                <field type="spacer" name="otherSpacer" class="text"
+                label="PLG_OTHER"
+                />
+
+                <field
+                name="other1"
+                type="text"
+                label="MOD_OTHER1"
+                />
+                <field
+                name="other1Start"
+                type="number"
+                label="MOD_OTHER1SY"
+                />
+                <field
+                name="other1Finish"
+                type="number"
+                label="MOD_OTHER1FY"
+                />
+
+                <field
+                type="spacer"
+                hr="true"
+                />
+
+                
+                <field
+                name="other2"
+                type="text"
+                label="MOD_OTHER2"
+                />
+                <field
+                name="other2Start"
+                type="number"
+                label="MOD_OTHER2SY"
+                />
+                <field
+                name="other2Finish"
+                type="number"
+                label="MOD_OTHER2FY"
                 />
                 
+
                 <field
                     type="spacer"
                     hr="true"
