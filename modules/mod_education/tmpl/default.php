@@ -6,19 +6,15 @@
  * @license         GNU General Public License version 2 or later; see LICENSE.txt
  */
 
+ $secDip = $this->params->get('secondaryd');
 // no direct access
 defined('_JEXEC') or die;
 ?>
 <div class="education-module-wrap<?php echo $moduleclass_sfx; ?>">
     <div class="education-module-wrap-inner">
         
-        <ul class="education-module-list nav nav-tabs nav-stacked">
-        <?php foreach( $items as $item ): ?>
-            <li class="education-module-list-item">
-                <?php echo JHtml::_('link', $item->link, "{$item->a_created} - {$item->a_title}"); ?>
-            </li>
-        <?php endforeach; ?>
-        </ul>
+    <?php if (secDip != null) :?>
+    <?php endif;?>
         
     </div>
 </div>
