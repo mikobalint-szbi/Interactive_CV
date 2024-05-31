@@ -11,6 +11,12 @@ defined('_JEXEC') or die;
 
 // Include the syndicate functions only once
 require_once dirname(__FILE__) . '/helper.php';
+$secDip = $params->get('secondaryd');
+$secSchool = $params->get('secondary');
+$secStart = $params->get('secondarys');
+$secEnd = $params->get('secondaryf');
+$showYears = $params->get('schoolstartyears');
+
 
 $items              = modeducationHelper::getItems($params) ;
 $moduleclass_sfx    = htmlspecialchars($params->get('moduleclass_sfx'));

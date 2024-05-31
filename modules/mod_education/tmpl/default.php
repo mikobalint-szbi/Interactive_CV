@@ -6,15 +6,18 @@
  * @license         GNU General Public License version 2 or later; see LICENSE.txt
  */
 
- $secDip = $this->params->get('secondaryd');
- $showYears = $this->params->get('schoolstartyears');
 // no direct access
 defined('_JEXEC') or die;
 ?>
 <div class="education-module-wrap<?php echo $moduleclass_sfx; ?>">
     <div class="education-module-wrap-inner">
         
-    <?php if (secDip != null) :?>
+    <?php if ($secDip != null) :?>
+        <h1>Secondary Education</h1>
+        <p><?php echo $secSchool ?></p>
+        <p>
+            <?php echo $secDip ?>
+        </p>
     <?php endif;?>
         
     </div>

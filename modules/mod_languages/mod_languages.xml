@@ -34,24 +34,7 @@
 		</fieldset>
 		<fields name="params">
 			<fieldset name="basic">
-				<field
-					name="header_text"
-					type="textarea"
-					label="MOD_LANGUAGES_FIELD_HEADER_LABEL"
-					filter="safehtml"
-					rows="3"
-					cols="40"
-				/>
-
-				<field
-					name="footer_text"
-					type="textarea"
-					label="MOD_LANGUAGES_FIELD_FOOTER_LABEL"
-					filter="safehtml"
-					rows="3"
-					cols="40"
-				/>
-
+				
 				<field
 					name="dropdown"
 					type="radio"
