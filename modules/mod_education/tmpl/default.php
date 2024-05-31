@@ -7,6 +7,7 @@
  */
 
  $secDip = $this->params->get('secondaryd');
+ $showYears = $this->params->get('schoolstartyears');
 // no direct access
 defined('_JEXEC') or die;
 ?>

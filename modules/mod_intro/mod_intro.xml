@@ -49,19 +49,8 @@
             
             <fieldset name="basic">
                 
-                <field
-                    name="catid"
-                    type="category"
-                    description="JGLOBAL_CHOOSE_CATEGORY_DESC"
-                    extension="com_intro"
-                    label="JGLOBAL_CHOOSE_CATEGORY_LABEL"
-                    required="true"
-                    multiple="true"
-                    size="10"
-                    default="1"
-                >
-                    <option value="1">JALL</option>
-                </field>
+
+                <field name="introduction" type="textarea" label="MOD_INTRODUCTION"/>
                 
                 <field
                     type="spacer"
